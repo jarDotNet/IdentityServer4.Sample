@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "37c2da73-86fe-44ed-9420-b690e051338a",
+		"name": "aspnet_core__webapi_identity_server_4",
+		"description": "WebApi secured with OpenId Connect — IdentityServer4 using Postman.\n\nSee: https://medium.com/all-technology-feeds/testing-your-asp-net-core-webapi-secured-with-identityserver4-in-postman-97eee976aa16",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:21500/api/values\n",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImE4YjU1OWU2MmY3MmQ1MjBhNjQzNGVhNmMxMzdkYWMzIiwidHlwIjoiSldUIn0.eyJuYmYiOjE1ODE5Mzk3NTcsImV4cCI6MTU4MTk0MzM1NywiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo0MDAwIiwiYXVkIjpbImh0dHA6Ly9sb2NhbGhvc3Q6NDAwMC9yZXNvdXJjZXMiLCJzYW1wbGVhcGkiXSwiY2xpZW50X2lkIjoic2FtcGxlYXBpIiwic3ViIjoiMmVlYTVmNjItYzFjZi00ZmJjLTgyZDctMDM3MTMyOWFiYjUwIiwiYXV0aF90aW1lIjoxNTgxOTM5NzU2LCJpZHAiOiJsb2NhbCIsInNjb3BlIjpbInNhbXBsZWFwaSJdLCJhbXIiOlsicHdkIl19.dAjuOMSC5pdxbTaafGW1YMFbogwGrl23dWmaCthQ7ZdVjgjMfEBLMj3fRDR2FHLQJ2WMX2dN7Gs5Wu0vUQkdW0KMaBUPQuPpDuxFP_GXafY_YOHJhvKFKdk5ng-AEz8xW83OU7FVsRAXSxyqBqRws6cqtBN_9e6y9dtclqw7GvYK8D02fT13vkcu_nRXTdFzRfVJI6oFtEixiF6E6OupXPH51Mf_igRV1_3P5TTcmDfzEGMy_CkmBPFjsLrwdRUChtEtZoC0PP_NWF-Jz6SP7SX2HTZD8HqeuZrMf-LOBVQGtXnBloLxzc0DXbw46JaqWt6fHxjOOJPDj_hFMxO_Mw",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:21500/api/values",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "21500",
+					"path": [
+						"api",
+						"values"
+					]
+				},
+				"description": "WebApi secured with OpenId Connect — IdentityServer4 using Postman."
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "3003f35d-eda9-4cb5-a6da-efbdda71098d",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "b5319f77-209e-4e8e-974d-f3d960f521bc",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

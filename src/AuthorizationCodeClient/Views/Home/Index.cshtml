@@ -1,0 +1,16 @@
+﻿@model TokenModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>Tokens retrieved from Authentication server</h2>
+        <ul>
+            <li>AccessToken: @Model.AccessToken</li>
+            <li>IdToken: @Model.IdToken</li>
+        </ul>
+    </div>
+    
+</div>
