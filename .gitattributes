@@ -1,7 +1,7 @@
 ###############################################################################
-# Set default behavior to automatically normalize line endings.
+# Set Repo Language.
 ###############################################################################
-* text=auto
+*.csharp linguist-detectable=true
 
 ###############################################################################
 # Set default behavior for command prompt diff.
