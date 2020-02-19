@@ -3,7 +3,7 @@
 Several OIDC authentication sample projects using Identity Server 4.
 
 ```
-Make sure to change [global.json](./global.json) file in order to set your own .NET Core SDK version.
+Make sure to change [global.json] file in order to set your own .NET Core SDK version.
 ```
 
 ## OpenIdConnectServer
